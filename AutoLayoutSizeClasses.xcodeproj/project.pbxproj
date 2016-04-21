@@ -14,6 +14,7 @@
 		5CB3897A1CC64C920018A9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB389781CC64C920018A9E0 /* LaunchScreen.storyboard */; };
 		5CB389851CC64C930018A9E0 /* AutoLayoutSizeClassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB389841CC64C930018A9E0 /* AutoLayoutSizeClassesTests.swift */; };
 		5CB389901CC64C930018A9E0 /* AutoLayoutSizeClassesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3898F1CC64C930018A9E0 /* AutoLayoutSizeClassesUITests.swift */; };
+		5CC0D38C1CC72B7000B3F27A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D38B1CC72B7000B3F27A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5CB3898B1CC64C930018A9E0 /* AutoLayoutSizeClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutSizeClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB3898F1CC64C930018A9E0 /* AutoLayoutSizeClassesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutSizeClassesUITests.swift; sourceTree = "<group>"; };
 		5CB389911CC64C930018A9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC0D38B1CC72B7000B3F27A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5CB389761CC64C920018A9E0 /* Assets.xcassets */,
 				5CB389781CC64C920018A9E0 /* LaunchScreen.storyboard */,
 				5CB3897B1CC64C920018A9E0 /* Info.plist */,
+				5CC0D38B1CC72B7000B3F27A /* User.swift */,
 			);
 			path = AutoLayoutSizeClasses;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				5CB389721CC64C920018A9E0 /* ViewController.swift in Sources */,
 				5CB389701CC64C920018A9E0 /* AppDelegate.swift in Sources */,
+				5CC0D38C1CC72B7000B3F27A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				5CB389961CC64C930018A9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CB389971CC64C930018A9E0 /* Build configuration list for PBXNativeTarget "AutoLayoutSizeClassesTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				5CB389991CC64C930018A9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CB3899A1CC64C930018A9E0 /* Build configuration list for PBXNativeTarget "AutoLayoutSizeClassesUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				5CB3899C1CC64C930018A9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
