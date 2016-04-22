@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         }
     }
     private func updateUi(){
-        passwordField.secureTextEntry = false
+        passwordField.secureTextEntry = secure 
         passwordLabel.text = secure ? "Secure Password": "Password"
         nameOfUser.text = loggedInUser?.name
         companyName.text = loggedInUser?.company
